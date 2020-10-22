@@ -1,0 +1,171 @@
+body{
+    background: #17162D;
+}
+
+h1{
+    color: white;
+    font-family: 'Squada One', cursive;
+    padding: 0.125em;
+    background-color: #8E8E8E;
+    width: 25%;
+    margin: 0.5em auto 0 auto;
+    border-radius: 1em;
+}
+
+h2{
+    color: white;
+    font-family: 'Squada One', cursive;
+    padding: 0.125em;
+    background-color: #8E8E8E;
+    width: 25%;
+    margin: 0.5em auto 0 auto;
+    border-radius: 1em;
+}
+
+
+#nombres{
+       border-radius: 0.5em;
+       text-align: center;
+       width: 46%;
+       margin: 0 auto 0 auto;
+}
+
+#contenedorDados{
+    background-color: #8E8E8E;
+    border-radius: 0.5em;
+    /* padding: 1em; */
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 27%;
+    height: 27%;
+    margin: auto;
+}
+
+
+#contenedorDados div{
+    display: inline-block;
+    width: 4em;
+    height: 4em;
+    margin: 25px;
+    cursor: pointer;
+}
+
+#contenedorDados div:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+#contenedorDados div img{
+    width: 100%;
+    cursor: pointer;
+    border-radius: 0.5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+}
+
+#winMsg{
+    display: none;
+    background-color: #8E8E8E;
+    border-radius: 0.5em;
+    padding: 1em;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 60%;
+    margin: 2em auto 0 auto;
+}
+
+select{
+    display: none;
+}
+
+button{
+    margin: 0.5em auto 0 auto;
+    font-family: 'Squada One', cursive;
+    font-size: 1.5em;
+    border-radius: 1em;
+    padding: 4%;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.75;
+    transition: 0.3s;
+}
+
+#reRoll{
+    display: none;
+    font-family: 'Squada One', cursive;
+    font-size: 1.5em;
+}
+
+.selected{
+    cursor: pointer;
+    opacity: 0.5;
+    transform: scale(0.75);
+}
+
+#plant{
+    display: none;
+    margin: 0.5em auto 0 0.5em;
+}
+
+#botones{
+    display: inline-flex;
+}
+
+span{
+    color: white;
+    font-family: 'Squada One', cursive;
+    padding: 0.125em;
+    font-size: 1.35em;
+}
+
+td{
+    margin: 0 auto 0 auto;
+    border: 4px solid #8E8E8E;
+    border-radius: 1em;
+    text-align: center;
+}
+
+#dadosYpuntaje{
+    display: flex;
+}
+
+table{
+    margin: 0 auto 0 auto;
+}
+
+/* #playGenerala{
+    display: none;
+}
+
+#playGenerala :hover{
+    cursor: pointer;
+}
+
+#playGeneralaDoble{
+    display: none;
+}
+
+#playGeneralaDoble :hover{
+    cursor: pointer;
+} */
+
+.play{
+
+    display: none;
+
+}
+
+.play :hover{
+
+    cursor: pointer;
+
+}
+
+#movs{
+
+    width: 45%;
+
+}
